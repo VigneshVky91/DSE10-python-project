@@ -1,0 +1,70 @@
+Learning Objectives 04th May 2022:
+
+
+- Variables Intro
+- Data types
+	- Integers
+	- Floating point
+	- String
+	- Boolean
+- Storing student details into variables
+- Inputting student details
+- Type conversion
+- Type checking
+- Strings in Python
+	- Single, double and tripple quotes
+	- Accessing the string characters using indexing
+	- Extracting characters from string (Using the colon :)
+	- String methods:
+		- Capitalize, Centered String, in, find, replace, Length of strings, uppercase and lowercase conversion
+
+Variables:
+
+	- Are temperary named memory locations
+	- Their values can be changed
+
+
+Examples of variables:
+
+studentId = S123456
+studentId = 3.14
+studentId = "Vignesh"
+
+
+int studentId = 12345;
+studentId = 54321.56
+studentId = "Vignesh"
+
+var studentId = 5464
+studentId = "Vignesh"
+
+
+Type conversion:
+
+	- It is possible to convert from any data type into a string
+		- Eg. salary = 5000
+		- str(salary)
+	- Also it is possible to convert from a valid string into any other type
+	- Make sure the value is proper
+
+Checking types:
+
+	- To check the types of variables the type() function is used
+	- The type() function returns the type of the variable (Eg. str, int, float, bool)
+
+Strings in Python:
+
+	- Sequence of characters
+	- Properly indexed
+	- The index of the first element of the string always starts with 0 and ends with n-1
+	- The first index can also be referred with index -n and the last index can be referred to as -1
+
+
+Some builtin functions in strings:
+
+	- capitalize
+	- center
+	- find
+	- replace
+	- upper
+	- lowercase

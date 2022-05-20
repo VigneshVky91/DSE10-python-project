@@ -1,0 +1,209 @@
+Java Script:
+
+	Learning objectives:
+
+		- JS fundamentals
+		- DOM Manipulation
+
+
+Why JS is popular?
+
+	- JS is very popular and well rounded language for developing web apps
+	- JS can be used in client side as well as in server side
+	- A very light weight language
+	- Helps faster development
+	- JS needs V8 Engine to execute
+	- V8 Engine is part of the browser that can work with JS
+	- Dev community have created node (V8 Engine inside)
+
+Javascript full stack:
+
+	MERN - Mongodb, Express, React and Node
+	MEAN - Mongodb, Express, Angular and Node
+	MEVN - Mongodb, Express, Vue and Node
+
+
+What is JS?
+
+	- One of most popular and widely used programming languages in the world
+	- Used in Front end and backend as well
+	- Prev used in the browser only but now complete apps can be created with JS
+
+Where does JS Run?
+	
+	- Can run in JS Engines (V8)
+	- Can run with node server as well
+
+What is JS and ECMA Script?
+
+	- JS is a language and ECMA is a consortium that standardized JS
+
+System Setup:
+
+	- Install node if want to run JS as a standalone app
+		- To run a js pgm ===> node index.js
+	
+	- Or any browser can run the JS code
+
+To install node:
+
+https://nodejs.org/en/download/
+
+ - Installing node will also install npm (Node Package Manager)
+
+
+console.log('Hello world');
+alert('Hello world');
+
+- In an html file JS can be added in two different ways:
+
+	- First way to use the <script></script>
+		<script>
+			console.log('Hello world');
+		</script>
+
+	- Use a seperate file for JS (SOC - Seperation of Concern) - Recommended
+
+
+Constants:
+
+	- Are placeholders whose value never change
+
+Variables:
+
+	- In JS the variables can be created with the var and let keywords
+	- var allows the redeclaration/recreation of variables - Which may lead to confusion - Not recommended
+	- let restrics the recreation of the variables - Recommended
+
+Static vs dynamic typed languages:
+
+	- Statically typed languages ---> Java, C# etc ---> Once variable declared of a particular type can't be changed again to a different type
+	- int x = 100;
+	 
+types available in Java script are:
+
+primitive types: 
+
+string
+number
+boolean
+undefined
+null: Object
+
+Reference types:
+
+Object:
+	- Consists of complex data items inside
+	let person = {
+		"sid":"123",
+		"sname":"Vignesh",
+		"city":"Chennai"
+	}
+
+	console.log(person.sname);
+		or
+	console.log(person['sname']);
+
+
+	
+
+Array:
+	- Is a collection of items
+	- Can be access using the index
+	- Array is also an object in Java script
+
+push, sort
+
+Operators:
+
+
+Functions:
+
+	- Functions are sub programs that helps doing a task
+
+Creating objects in JS using function:
+
+	There are three ways of creating objects in Javascript:
+	1. Create the object using {}    ===> var person = {"key":"value"}
+	2. Create object for a function  ===> let objName = new FunctionName("123", "Vignesh");
+	3. Create object for a class     ===> let objName = new ClassName("123", "Vignesh");
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Learning objectives 05th May 2022 - AN:
+	- To understand the basics of DOM
+	- Manipulate DOM from JS
+		
+		- How to pick an html element using the existing DOM methods (Using ids, classes, name, tag names and querySelector)
+		- Changing the properties of an existing html elements
+		- Control styles
+		- Add or remove CSS classes
+		- Create a new html element from JS using DOM
+		- Remove the existing html elements using DOM
+		- Adding event handlers for the html elements
+
+DOM: (Document Object Model)
+
+In Html tags, we have attributes created inside tags/elements 
+In equivalent DOM object properties are created 
+
+---> HTML attributes and DOM properties are different
+---> Changes made on the DOM properties won't affect the HTML attributes
+
+
+<a link="">
+a==> Object
+  ==> link => Property
+document object = the whole html document
+document is the root element for the whole html
+
+Dynamic content can be added to the html page using dom
+
+
+document object methods
+
+write("str")
+writeln("str")
+
+getElementById
+
+	getElementsById.innerText
+	getElementsById.id
+	getElementsById.classList
+
+getElementByClassName
+getElementsByTagName
+getElementsByName
+
+querySelector('element' or '#id' or '.classname') -> Picks and returns the first result
+querySelectorAll -> Picks and returns all the result
+
+Accessing attributes:
+
+- We can assign a selected dom element into an object
+- obj.attribute can be used to access/change the properties
+
+Attribute setter and getter methods
+
+Style can be changed using the 
+element.style.attribute
+
+CSS classes can also be added dynamically
+element.classList.add("class1", "class2")
+
+
+Adding event listener to an element using DOM api
+
+element.addEventListener('click', function(e){})
+
+
+
+Create dom element:
+
+p = document.createElement("p")
+p.innerText = "text for the paragraph"
+p.id = "mypara"
+
+parent.appendChild(p)
+parent.removeChild(p)

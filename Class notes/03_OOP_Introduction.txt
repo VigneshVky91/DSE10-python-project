@@ -1,0 +1,123 @@
+Learning Objectives 29th April 2022:
+	
+	- General Purpose Programming Language
+	- Object Oriented Programming Introduction
+	- Principles
+
+
+What is General Purpose Programming Language?
+
+	- A programing language used for almost any kind of applications
+
+
+Types of programming Paradigms:
+
+	- Simple sequential programming language
+
+		- A language where all the codes are written and executedline by line (Sequentially)
+		- Eg. if there are 10 lines of code they all will be executed line by line (There is no jump from place to place)
+
+	- Procedure Oriented Programming language (POP)
+
+		- Procedures are collection of instructions (block of code)
+		- One or many procedures are created for the entire application
+		- Procedures can be skipped / repeated several times based on the need
+		- Eg. C programming
+
+	
+	- Object Oriented Programming language
+
+		
+
+Object Oriented Programming Language?
+
+	- Its a very popular programming paradigm in recent times
+	- Its a paradigm to treat programming instances as real life instances
+
+
+Benefits of Object Oriented Programming languages:
+
+	- Reusability of code (Same code can be reused several times)
+	- Realistic modeling (Physical entities are modeled into programming entities)
+	- Resilience to change (One part of the program can be modified without affecting the other part)
+
+
+1. Classes
+	
+	- Are blueprints
+	- User defined data types
+	- Collection of variables and member functions
+	- They can be used as a blueprint to create objects	
+
+2. Objects
+	
+	- Instances of a class
+	- Are built using the blueprint
+
+3. Abstraction
+
+	- Hiding the implementation details from the users is called abstraction
+	- Showing essential information
+
+	Eg. ATM Machine has many functionalities inbuilt but they show the essential options only
+
+4. Encapsulation
+	
+	- Wrapping up of variables (Properties) and member functions (Behavior) into a single unit is called Encapsulation
+
+5. Inheritance
+
+	- Helps reusing the code
+	- Deriving properties of the parent class into the subclass 
+	- Reuse the variables and functions
+
+	Parent class:
+		- The class that shares its properties with the other classes
+	Sub class:
+		- The class that receives the properties from the parent class
+
+
+6. Polymorphism
+
+	- The ability of an objet to take more than one form
+	- One single object can take many forms is called polymorphism
+	
+	Types:
+
+		- Compile time polymorphism: The form of an object is decided during compile time itself
+		- Runtime polymorphism	   : The form of an object is decided during runtime is called runtime polymorphism
+
+	development time ---> Compile time ---> Runtime
+
+7. Message Passing
+
+	- Messages can be transmitted from one object to another through function/methods
+	- Communications can happen only through methods
+
+8. Dynamic binding
+
+	- The ability of an object to take more than one form during execution time
+	- Eg. A manager will be a manager but during execution when withdrawing the salary he will be an employee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

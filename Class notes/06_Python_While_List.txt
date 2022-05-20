@@ -1,0 +1,93 @@
+Learning Objectives : 18th May 2022:
+
+	- The basics of git
+	- while loop
+	- Use cases with while loop
+	- List
+	- Tuple
+	- Set
+	- Dictionaries
+
+
+When to use for loop?
+	- When the total number of iterations are known to the programmer then while loop should be used
+
+	for condition:
+		body of the loop
+	else:
+		false block of the loop
+
+When to use while loop?
+	- When the total number of executions is not known then while loop is used
+
+	while condition:
+		body of the loop
+	else:
+		false block of the loop
+
+input a number 7859---> 9587
+
+
+What is git?
+
+	- Is Version Controlling System (VCS) or Source Code Management System (SCM)
+	- Linus ---> The guy who invented (Conceptualized the concept) Linux OS 
+	- Consists of some commands that can be used by the developers to manage their code
+
+	- Bitbucket, Github, Gitlab etc -----> Same git commands
+
+Without git?
+
+	- Managing the different versions of the softwares was difficult
+	- Reverting back to different versions was difficult
+	- Was difficult to provide restricted access to each developer on their project
+
+
+- Lists, Tuples, Sets, Dictionaries are called data structures
+
+Lists:
+
+	- lists are created with []
+	- Duplicates are allowed inside the list
+	- Different data types can be assigned in a single array
+
+	- list.insert(index, "Element")
+	- list.append("Element")
+	- list.pop()
+	- list.count("element")
+	- list2 = list1.copy()
+	- list1.extend(list2)
+	- list.sort()
+	- list.remove("element")
+	- list.clear()  ---> Clears all the elements from the list
+
+
+Tuple:
+	
+	- Tupes are created with ()
+	- Tuples are immutable (Not changeable)
+	- The elements in the tuple are fixed
+	- len()
+	- max()
+	- min()
+	- tuple.index("element")
+	- tuple.count("element")
+	- tuple([list]) ----> Helps creating a tuple from a list
+
+Set:
+
+	- set.intersect()
+	- set.union()
+	- set.difference()
+	- min()
+	- max()
+	- len()
+	- set1.issubset(set2)
+
+Dictionary:
+
+	- dictionary[key]
+	- dictionary.get(key)
+	- newDictionary = dict(zip(key, value)) ---> To create a dictionary out of two lists
+	- del dict["key"]
+	- 

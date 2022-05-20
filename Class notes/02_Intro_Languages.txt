@@ -1,0 +1,161 @@
+Learning Objectives 27th April 2022 (Wednesday):
+ 
+	- Basics of languages
+	- Low level language
+	- High level language
+	- Compiler
+	- Interpreter
+	- Editor vs IDE
+
+
+
+Languages:
+
+	- Used to establish communication
+	- Computers speak low level language
+	- Human speak high level language
+
+
+Low level languages:
+
+	- The language that computers speak
+	- Binary language
+	- Machine language		
+	- 0s and 1s
+
+ASCII ---> American Standard Code for Information Interchange
+
+A ---> 65
+B ---> 66
+:
+:
+
+a ---> 97
+b ---> 98
+:
+:
+
+delete ---> 0
+space  ---> 32
+
+High level language:
+
+	- Human understandable languages
+	- English, Khmer, Japanese, Tamil
+
+Computers can't understand high level languages
+Humans can't understand low level language
+
+Assembly language:
+
+	- There is a need for intermediate language to establish communication between Human and computer
+	- Intermediate language for computers and human
+
+
+
+ALGOL
+  |
+BCPL
+  |
+  B
+  |
+  C
+
+
+
+Compiler:
+
+	- A software that converts the source code into an intermediate code
+	- Checks all the errors at once and provide the suggestion to resolve
+
+Interpreter:
+
+	- A software that converts the code line by line to machine understandable code
+
+
+Python is used in:
+
+	- Data Science                              ---> R
+	- Machine learning
+	- Big data
+	- Ethical hacking
+	- General programming
+	- Graphical User Interface - Not recommended ---> Mobile app ---> XML with Java or kotlin, Swift
+	- Web development - Not recommended          ---> Java, Java Script, PHP with laraval
+	- Robotics
+	- IOT
+	- Scientific apps
+	- Blockchain				     ---> Golang
+
+
+
+Full stack development:
+
+
+	Front end:
+		- Html, CSS, Java Script ===> Bootstrap, Angular.js, React, Vue.js
+
+	Back end:
+		- Java, .net, PHP, Java Script (node)
+
+	Databases:
+		- MySql, Oracle, Mongo db etc...
+
+
+Python:
+
+	- Was introduced in 1991
+	- Very old language
+	- Became popular very recently
+	- General Purpose Programming language
+	- Object Oriented Programming Language
+	- Very simpler syntax, a novice can easily implement his program
+	- Python 3.X is the latest version of python
+	- Python 2.X is still being used by companies
+	- Python 2.X is pretty much different from Python 3.X
+	- Python is an interpreted language (Executes line by line)
+	- Python avoids boiler plate code (Unnecessary code)
+
+
+How can I write python code?
+
+	- Can be written with notepad++, VS VS Code, Atom, Sublime text, Pycharm, Python IDLE etc
+	- Two types:
+
+		- Editors:
+
+			- Very light weight
+			- Standalone software for writing programming code
+			- Plugins can be added
+			- VS Code, Sublime text, Atom etc
+
+		- Integrated Development Environment
+
+			- Very complex SW for developing apps
+			- Integrated with different other required softwares
+			- Very heavey weight
+			- Pycharm - Jetbrains
+
+
+
+---> Create a python file with the functions named:
+
+	sum()
+	diff()
+	mul()
+	div()
+
+
+Reference:
+
+def sum():
+    num1 = 100
+    num2 = 200
+    result = num1 + num2
+    print('Result : ', result)
+
+
+sum()
+
+	
+	

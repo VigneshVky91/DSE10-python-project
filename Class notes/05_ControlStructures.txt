@@ -1,0 +1,136 @@
+Learning objectives for 06th May 2022:
+
+	- Control structures
+	- Operators to be used in conditions
+	- Conditional (simple if, if..else, if...elif...else)
+	- Looping (for and whiile)
+
+
+control constructs:
+
+	- Are classified into two types:
+		- Conditional constructs
+		- Repeative or looping constructs
+
+
+	- Conditional constructs:
+		- Helps taking decision and work accordingly
+			- Simple if
+			- if and else
+			- if elif else (If else ladder)
+			- Nested if
+
+	- Repeative or looping construct:
+		- Helps doing some task repeadedly
+			- for
+			- while
+
+
+
+	Simple if in python:
+
+		if condition:
+			print("Success")
+		print("Next step")
+
+
+
+Practice:
+
+	input the marks
+	if marks > 90 ---> Distinction
+	if marks > 70 ---> First class
+	if marks > 60 ---> Second class
+	if marks >= 50 ---> Pass and (Third class)
+	marks < 50     ---> Fail
+
+	Take input for customer name:
+
+	input the power consumption units
+	if units > 500
+		- The price per unit ==> 3500riel
+	if units > 400
+		- The price per unit ==> 3100riel
+	if units > 300
+		- The price per unit ==> 2750riel
+	if units > 200
+		- The price per unit ==> 1800riel
+	if units <=200
+		- The price per unit ==> 720riel
+
+	Customer name:
+	Total units consumed by the customer:
+	Price per unit:
+	Total amount payable:
+
+
+- Nested if:
+
+	- if and else inside another if and else
+	- Input 3 numbers to num1, num2, num3 variables
+	- Find the biggest among the three and display the value
+
+	if num1 vs num2:
+		if num1 vs num3:
+			num1 is the biggest
+		else:
+			num3 is the biggest
+	else:
+		if num2 vs num3:
+			num2 is the biggest
+		else:
+			num3 is the biggest
+		
+
+- When working with the control structures the logical operators and comparison operators are essential
+
+Arithmetic operators:
+
++ Addition
+- Subtraction
+* Multiplication
+/ Division ---> 	Yields quotient
+% Modulo division 	Yields remainder
+**			Yields the power of a number
+
+comparison operators:
+
+< Less than
+> Greater than
+<= Less than or equals
+>= Greater than or equals
+== Equals
+!= Not equals
+
+Logical operators:
+
+and ---> When both the conditions are true the and operator will return true otherwise false
+or  ---> When either of the conditions is true then then it will return true, If both are false then returns false
+not ---> If true, returns false and if false returns true
+
+
+Repeative or looping constructs:
+	
+	- Loops are used to do a task repeatedly
+	
+	- for 	  ---> for loop is preferred when the total number of execution is determined already
+	- while	  ---> while loop is preferred when the totoal number of execution is not determined
+
+
+	for condition:
+		do something
+
+is_age_mt_18 = True
+has_no_criminal_records = True
+
+
+arr= ["One", "Two", "Three"]
+for x in arr:
+  if x == "One":
+    continue
+  print(x)
+
+
+for x in range(2, 6):
+  print(x)
+
