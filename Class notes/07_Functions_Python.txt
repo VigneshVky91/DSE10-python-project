@@ -1,0 +1,53 @@
+Learning Objectives: 25th May 2022 - Wednesday:
+
+	Functions
+		- Different types of functions
+		- Passing arguments and returning values from the function
+	arbitrary arguments *
+	keyword arguments
+	arbitrary keyword arguments **
+	default parameters
+	passing lists, tuple etc as arguments
+
+
+What are Functions?
+
+	- Collection of statements
+	- Functions are created to reuse the code
+	- Functions can be created once and called as many times as we want
+	- Functions can have a name
+	- Functions can receive arguments in the parameters
+	- Funtions can return values at the end of all the statements
+
+Task 1:
+
+Create the function addTwoNumbers()
+	- When the addTwoNumbers() is called it "must get input for two numbers" and "print the sum as a result"
+
+
+#The below statements is called function declaration
+def functionName():
+	print("Hello world")
+	print("Next line")
+
+#The below statement is called function calling
+functionName()
+functionName()
+
+
+arguments:
+
+	- The values passed from the function calling to the function definition
+	- Any number of arguments and types of arguments can be called to the function defintion
+Eg 1.
+def addTwoNumbers(num1, num2):
+	print(f"Sum = ${num1+num2} Thank you for using the function")
+
+addTwoNumbers(500,250)
+
+Eg 2.
+def printName100Times(name):
+	print(name*100)
+
+
+printName100Times("Sreng")
