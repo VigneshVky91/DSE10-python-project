@@ -1,4 +1,4 @@
-Learning Objectives: 25th May 2022 - Wednesday:
+Learning Objectives: 25th and 27th May 2022 - Wednesday:
 
 	Functions
 		- Different types of functions
@@ -18,6 +18,14 @@ What are Functions?
 	- Functions can have a name
 	- Functions can receive arguments in the parameters
 	- Funtions can return values at the end of all the statements
+
+
+Different types of functions:
+
+	- Functions with no arguments and no return values (Default functions)
+	- Functions with arguments and without return values
+	- Functions without arguments and with return values
+	- Functions with argument and with return values
 
 Task 1:
 
