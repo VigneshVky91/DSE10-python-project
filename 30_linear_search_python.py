@@ -5,12 +5,22 @@
 #     else:
 #         return -1
 
+# def l_search(nums_list, search_no):
+#     for index in range(0, len(nums_list)):
+#         if nums_list[index] == search_no:
+#             return index+1
+#     else:
+#         return -1
+
 def l_search(nums_list, search_no):
-    for index in range(0, len(nums_list)):
+    index = 0
+    while index < len(nums_list):
         if nums_list[index] == search_no:
             return index+1
+        index+=1
     else:
         return -1
+
 
 my_list = [50,25,65,91,67,87]
 sno = int(input("Input the element to be found from the list:"))
