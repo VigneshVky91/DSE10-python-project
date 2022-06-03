@@ -53,6 +53,7 @@ Lists:
 
 	- list.insert(index, "Element")
 	- list.append("Element")
+	- list.index(element)
 	- list.pop()
 	- list.count("element")
 	- list2 = list1.copy()
