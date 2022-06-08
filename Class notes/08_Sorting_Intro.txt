@@ -1,0 +1,27 @@
+Learning objectives:
+
+	- Sorting techniques
+	- Usage of sorting techniques
+	- Bubble sort working mechanism
+	- Code implementation
+	
+
+Sorting techniques:
+
+	- Are used to sort the list items or array items
+
+Types of available sorting techniques:
+
+	1. Bubble sort
+	2. Mergesort
+	3. Quicksort
+	4. Heapsort
+	Etc
+
+
+Bubblesort:
+
+	- The most easiest and slowest sorting technique of all
+	- The efficiency is very low compared to other sorting techniques
+	- We try to sort the largest element in the list to its correct position (Right side of the list)
+	- Then the next largest element to be places in its position
