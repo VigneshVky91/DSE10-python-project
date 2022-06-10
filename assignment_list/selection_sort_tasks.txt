@@ -1,0 +1,34 @@
+
+def selection_sort_sort_by_id_asc(dict):
+	//logic to sort the dictionary elements by id (asc order)
+	//display the dictionary after sorting
+
+def selection_sort_sort_by_id_desc(dict):
+	//logic to sort the dictionary elements by id (desc order)
+	//display the dictionary after sorting
+
+def selection_sort_sort_by_name_length_asc(dict):
+	//logic to sort the dictionary elements by name length (asc order)
+	//display the dictionary after sorting
+
+def selection_sort_sort_by_name_length_desc(dict):
+	//logic to sort the dictionary elements by name length (desc order)
+	//display the dictionary after sorting
+
+
+Dictionary
+
+	123-Sen
+	110-Panha
+	112-Thearin
+	100-Daravuth
+	107-Sara pich
+
+User input for option:
+
+Input:
+
+1 for sort the dictionary by id ascending order
+2 for sort the dictionary by id descending order
+3 for sort the dictionary by name length ascending order
+4 for sort the dictionary by name length descending order
