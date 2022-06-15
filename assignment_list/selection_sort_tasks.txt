@@ -16,7 +16,7 @@ def selection_sort_sort_by_name_length_desc(dict):
 	//display the dictionary after sorting
 
 
-Dictionary
+Dictionary (Self learning)
 
 	123-Sen
 	110-Panha

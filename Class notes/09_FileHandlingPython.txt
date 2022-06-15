@@ -1,0 +1,39 @@
+Quicksort ---> Understand the flow and explain with a program - Sarapich
+Heapsort  ---> Understand the flow and explain with a program - Thenghuy
+
+File handling in Python:
+
+	- The data used in python programs are volatile by default (Erased when the program closed)
+	- It is needed to store the data into a permanent location
+		- Databases (Mysql, Postgres, Oracle, Mongodb)
+		- Files (Regular files --> Text data, Binary files)
+
+Types of files used in python:
+
+	- Simple text files
+	- Binary files
+
+
+Types of operations done on files:
+
+	- Create (Creates a file specified into the memory)
+	- Read (The python program reads data from the file)
+	- Write (The python program writes data into the file - Erases the existing data from the file and writes the new data each time)
+	- Append (The program writes data into the file - Doesn't erase the data from the file but appends the latest data into the file)
+
+Tokens to open file in python:
+
+x - Opening a file in Create mode
+r - Opening a file for Reading
+w - Opening a file for Writing (Existing data will be lost)
+a - Opening a file for Writing (Existing data will be maintained)
+rb - Opening a file for reading (For binary file operations)
+wb - Opening a file for writing (For binary file operations)
+rt - Opening a file for reading (For text file operations)
+wt - Opening a file for writing (For text file operations)
+
+To open a file in python:
+
+	myFile = open("file_name.txt", "x")
+
+os.path.exists()
